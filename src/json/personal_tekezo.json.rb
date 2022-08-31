@@ -19,7 +19,7 @@ def main
     'maintainers' => ['tekezo'],
     'rules' => [
       {
-        'description' => 'Personal rules (@tekezo) (rev 43)',
+        'description' => 'Personal rules (@tekezo) (rev 44)',
         'available_since' => '14.8.4',
         'manipulators' =>
         core_configuration +
@@ -536,6 +536,18 @@ def device_specific
     '7' => 'keypad_7',
     '8' => 'keypad_8',
     '9' => 'keypad_9',
+    'f1' => 'f1',
+    'f2' => 'f2',
+    'f3' => 'f3',
+    'f4' => 'f4',
+    'f5' => 'f5',
+    'f6' => 'f6',
+    'f7' => 'f7',
+    'f8' => 'f8',
+    'f9' => 'f9',
+    'f10' => 'f10',
+    'f11' => 'f11',
+    'f12' => 'f12',
   }.each do |from, to|
     result.push({
                   'type' => 'basic',
